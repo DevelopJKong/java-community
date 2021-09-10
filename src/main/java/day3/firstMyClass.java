@@ -1,7 +1,14 @@
 package day3;
 
 public class firstMyClass {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+    public String check(String name){
+        System.out.println("체크할 이름은 : "+name);
+        return name;
     }
+
+    public static void main(String[] args) {
+        firstMyClass firstMyClass = new firstMyClass();
+        firstMyClass.check("정콩");
+    }
+
 }
