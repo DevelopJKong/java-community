@@ -1,13 +1,13 @@
 package day3;
 
-public class firstMyClass {
+public class FirstMyClass {
     public String check(String name){
         System.out.println("체크할 이름은 : "+name);
         return name;
     }
 
     public static void main(String[] args) {
-        firstMyClass firstMyClass = new firstMyClass();
+        FirstMyClass firstMyClass = new FirstMyClass();
         firstMyClass.check("정콩");
     }
 

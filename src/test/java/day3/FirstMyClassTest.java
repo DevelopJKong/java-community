@@ -3,11 +3,11 @@ package day3;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class firstMyClassTest {
+public class FirstMyClassTest {
     @Test
     public void test(){
         //given
-        firstMyClass firstMyClass = new firstMyClass();
+        FirstMyClass firstMyClass = new FirstMyClass();
 
         //when
         String name = firstMyClass.check("정콩");
