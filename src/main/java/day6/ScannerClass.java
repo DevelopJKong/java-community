@@ -7,19 +7,23 @@ import java.util.Scanner;
 public class ScannerClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        int age = sc.nextInt();
-       // String mb = sc.nextLine();
-        String blood = sc.nextLine();
-        String sentence = sc.nextLine();
+        MyInfoClass info = new MyInfoClass();
 
-        System.out.println("=============자기소개 입력하기==============");
-        System.out.println(name + " 이름을 입력하세요");
-        System.out.println(age +" 나이를 입력하세요");
-        //System.out.println(mb +" 엠비티아이 을 입력하세요");
-        System.out.println(blood + " 혈액형을 입력하세요");
-        System.out.println(sentence + " 좌우명 한 문장을 입력하세요");
-        System.out.println("=============자기소개 끝==============");
+        System.out.println("=============please writer your info==============");
+        System.out.printf("%s please write your name \n",info.name);
+        System.out.printf("%d please write your age \n",info.age);
+        System.out.printf("%s please write your mbti \n",info.mb);
+        System.out.printf("%s please write your blood type \n",info.blood);
+        System.out.printf("%s please writer your best sentence \n",info.sentence);
+        System.out.println("=============your info end=============");
+
+//        System.out.println("=============자기소개 입력하기==============");
+//        System.out.printf("%s 이름을 입력하세요 \n",info.name);
+//        System.out.printf("%d 나이를 입력하세요 \n",info.age);
+//        System.out.printf("%s 엠비티아이 을 입력하세요 \n",info.mb);
+//        System.out.printf("%s 혈액형을 입력하세요 \n",info.blood);
+//        System.out.printf("%s 좌우명 한 문장을 입력하세요 \n",info.sentence);
+//        System.out.println("=============자기소개 끝==============");
 
     }
 }
