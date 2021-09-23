@@ -2,7 +2,7 @@ package day9;
 
 import java.util.Objects;
 
-public class MbitClass {
+public class MbtiClass {
 
     public String SelectMbit(String mbti){
         switch (mbti) {

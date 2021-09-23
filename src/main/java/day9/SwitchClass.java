@@ -6,7 +6,7 @@ public class SwitchClass {
     public static void main(String[] args) {
         //객체 선언
         Scanner sc = new Scanner(System.in);
-        MbitClass mbtiClass = new MbitClass();
+        MbtiClass mbtiClass = new MbtiClass();
         //초기화
         String mbti;
 
