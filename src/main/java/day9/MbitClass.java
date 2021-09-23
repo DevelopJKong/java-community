@@ -37,6 +37,8 @@ public class MbitClass {
             case "ISTP" : mbti ="임베디드 개발자형";
                     break;
             case "ISFP" : mbti ="네트워크 개발자형";
+
+            default: mbti ="다시 입력해주세요 :)";
         }
         return mbti;
     }
